@@ -4,6 +4,11 @@ personal portfolio
 
 -->
 
+<!--
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+-->
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,7 +16,7 @@ personal portfolio
     <meta name="website" content="fcc portfolio">
     <title>Personal Portfolio Webpage</title>
 
-   <style>
+<style>
 
 :root {
 --white: #f0f0f0;
@@ -309,6 +314,7 @@ footer > p {
 }
 
 </style>
+
   </head>  
   <body>
     <nav id="navbar" class="nav">
@@ -361,8 +367,8 @@ footer > p {
         </a>
 
 
-        <a href="https://codepen.io/hugh-burgess/pen/MWeebWg" target="_blank" class="project project-title project-tile">
-          <img class="project-image" src="#" alt="project">
+        <a href="https://codepen.io/hugh-burgess/full/MWeebWg" target="_blank" class="project project-title project-tile">
+          <img class="project-image" src="https://res.cloudinary.com/devpost/image/fetch/s--YFpiE0zr--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://user-images.githubusercontent.com/34116562/41829100-842a05a2-7856-11e8-971b-eaed8bcfa57c.png" alt="project">
           <p class="project-title">
             <span class="code"><</span>
               Technical Documentation Page
