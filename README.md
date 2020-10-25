@@ -4,7 +4,11 @@ personal portfolio
 
 -->
 
+
 <!--
+
+FCC test tracker
+
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 -->
 
@@ -16,305 +20,305 @@ personal portfolio
     <meta name="website" content="fcc portfolio">
     <title>Personal Portfolio Webpage</title>
 
-<style>
+    <style>
 
-:root {
---white: #f0f0f0;
---red: #be3144;
---blue: #25567d;
---gray: #303841;
-}
+    :root {
+    --white: #f0f0f0;
+    --red: #be3144;
+    --blue: #25567d;
+    --gray: #303841;
+    }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
 
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  scroll-behaviour: smooth;
-}
+    html {
+      box-sizing: border-box;
+      font-size: 62.5%;
+      scroll-behaviour: smooth;
+    }
 
-@media (max-width: 75em) {
-  html {
-    font-size: 60%;
-  }
-}
+    @media (max-width: 75em) {
+      html {
+        font-size: 60%;
+      }
+    }
 
-@media (max-width: 61.25em) {
-  html {
-    font-size: 58%;
-  }
-}
+    @media (max-width: 61.25em) {
+      html {
+        font-size: 58%;
+      }
+    }
 
-@media (max-width: 28.75em) {
-  html {
-  font-size: 55%;
-  }
-}
+    @media (max-width: 28.75em) {
+      html {
+      font-size: 55%;
+      }
+    }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  line-height: 1.4;
-  color: ;
+    body {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8em;
+      font-weight: 400;
+      line-height: 1.4;
+      color: ;
 
-}
+    }
 
-h1,
-h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  text-align: center;
-}
+    h1,
+    h2 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      text-align: center;
+    }
 
-h1 {
-  font-size: 5em;
-}
+    h1 {
+      font-size: 5em;
+    }
 
-h2 {
-  font-size: 4.2em;
-}
+    h2 {
+      font-size: 4.2em;
+    }
 
-ul {
-  list-style: none;
-}
+    ul {
+      list-style: none;
+    }
 
-a {
-  text-decoration: none;
-  color: #f0f0f0;
-}
+    a {
+      text-decoration: none;
+      color: #f0f0f0;
+    }
 
-img {
-  display: block;
-  width: 100%;
-}
+    img {
+      display: block;
+      width: 100%;
+    }
 
-.bon-iver {
-    filter: gray;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  height: 325px; width: 162.5px;
-}
+    .bon-iver {
+        filter: gray;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+      height: 325px; width: 162.5px;
+    }
 
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #be3144;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
-}
+    .nav {
+      display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #be3144;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+      z-index: 10;
+    }
 
-.nav-list {
-  display: flex;
-  margin-right: 2rem;
-}
+    .nav-list {
+      display: flex;
+      margin-right: 2rem;
+    }
 
-@media (max-width: 28.75) {
-  .nav {
-    justify-content: center;
-  }
+    @media (max-width: 28.75) {
+      .nav {
+        justify-content: center;
+      }
 
-  .nav-list {
-    margin: 0 1rem;
-  }
-}
+      .nav-list {
+        margin: 0 1rem;
+      }
+    }
 
-.nav-list a {
-  display: block;
-  font-size: 2.2rem;
-  padding: 2rem;
-}
+    .nav-list a {
+      display: block;
+      font-size: 2.2rem;
+      padding: 2rem;
+    }
 
-.nav-list a:hover {
-  background: #25567d;
-}
+    .nav-list a:hover {
+      background: #25567d;
+    }
 
-.welcome-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-}
+    .welcome-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color: #000;
+      background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    }
 
-.welcome-section > h1 {
-  color: #f0f0f0;
-}
-.welcome-section > p {
-  font-size: 3rem;
-  font-weight: 200;
-  font-style: italic;
-  color: #be3144;
-}
+    .welcome-section > h1 {
+      color: #f0f0f0;
+    }
+    .welcome-section > p {
+      font-size: 3rem;
+      font-weight: 200;
+      font-style: italic;
+      color: #be3144;
+    }
 
-.projects-section {
-  text-align: center;
-  padding: 10rem 2rem;
-  background: #25567d;
-}
+    .projects-section {
+      text-align: center;
+      padding: 10rem 2rem;
+      background: #25567d;
+    }
 
-.projects-section-header {
-  max-width: 640px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid #f0f0f0;
-}
+    .projects-section-header {
+      max-width: 640px;
+      margin: 0 auto 6rem auto;
+      border-bottom: 0.2rem solid #f0f0f0;
+    }
 
-@media (max-width: 28.75em) {
-  .projects-section-header {
-    font-size: 4rem;
-  }  
-}
+    @media (max-width: 28.75em) {
+      .projects-section-header {
+        font-size: 4rem;
+      }  
+    }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
-}
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-gap: 4rem;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      margin-bottom: 6rem;
+    }
 
-@media (max-width: 30.625em) {
-  .projects-section {
-    padding: 6rem 1rem;
-  }
-}
+    @media (max-width: 30.625em) {
+      .projects-section {
+        padding: 6rem 1rem;
+      }
+    }
 
-.projects-grid {
-  grid-template-columns: 1fr;
-}
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
 
-.project {
-  background: #303841;
-  box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.4);
-  border-radius: 2px;
-}
+    .project {
+      background: #303841;
+      box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.4);
+      border-radius: 2px;
+    }
 
-.code {
-  color: #303841;
-  transition: color 0.3s ease-out;
-}
+    .code {
+      color: #303841;
+      transition: color 0.3s ease-out;
+    }
 
-.project:hover .code {
-  color: #ff7f50;
-}
+    .project:hover .code {
+      color: #ff7f50;
+    }
 
-.project-image {
-  height: calc(100% - 6.8rem);
-  width: 100%;
-  object-fit: cover;
-}
+    .project-image {
+      height: calc(100% - 6.8rem);
+      width: 100%;
+      object-fit: cover;
+    }
 
-.project-title {
-  font-size: 2rem;
-  padding: 2rem 0.5rem;
-}
+    .project-title {
+      font-size: 2rem;
+      padding: 2rem 0.5rem;
+    }
 
-.btn {
-  display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 2px;
-}
+    .btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      border-radius: 2px;
+    }
 
-.btn-show-all {
-  font-size: 2rem;
-  background: #303841;
-  transition: background 0.3s ease-out;
-}
+    .btn-show-all {
+      font-size: 2rem;
+      background: #303841;
+      transition: background 0.3s ease-out;
+    }
 
-.btn-show-all:hover {
-  background: #be3144;
-}
+    .btn-show-all:hover {
+      background: #be3144;
+    }
 
 
-.contacts-section {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
-  background: #303841;
+    .contacts-section {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      height: 80vh;
+      padding: 0 2rem;
+      background: #303841;
 
-}
+    }
 
-.contacts-section-header > h2 {
-  font-size: 6rem;
-  color: #f0f0f0;
+    .contacts-section-header > h2 {
+      font-size: 6rem;
+      color: #f0f0f0;
 
- }
+     }
 
-@media (max-width: 28.75em) {
-  .contacts-section-header > h2 {
-  font-size: 4rem;
-  text-align: center;
-  }
-}
+    @media (max-width: 28.75em) {
+      .contacts-section-header > h2 {
+      font-size: 4rem;
+      text-align: center;
+      }
+    }
 
-.contacts-section-header > p {
-  font-style: italic;
-  text-align: center;
-  color: #f0f0f0;
-}
+    .contacts-section-header > p {
+      font-style: italic;
+      text-align: center;
+      color: #f0f0f0;
+    }
 
-.contact-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 980px;
-  margin-top: 4rem;
-  flex-wrap: wrap;
-}
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      max-width: 980px;
+      margin-top: 4rem;
+      flex-wrap: wrap;
+    }
 
-.contact-details {
-  font-size: 2.4rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
-  transition: transform 0.3s ease-out;
-}
+    .contact-details {
+      font-size: 2.4rem;
+      text-shadow: 2px 2px 1px #1f1f1f;
+      transition: transform 0.3s ease-out;
+    }
 
-.contact-details:hover {
-  transform: translateY(8px);
-}
+    .contact-details:hover {
+      transform: translateY(8px);
+    }
 
-footer {
-  font-weight: 300;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2rem;
-  background: #303841;
-  border-top: 4px solid #be3144;
-}
-footer > p {
-  margin: 2rem;
-}
+    footer {
+      font-weight: 300;
+      display: flex;
+      justify-content: space-evenly;
+      padding: 2rem;
+      background: #303841;
+      border-top: 4px solid #be3144;
+    }
+    footer > p {
+      margin: 2rem;
+    }
 
-@media (max-width: 28.75) {
-  footer {
-    flex-direction: column;
-    text-align: center;
-  }
-}
+    @media (max-width: 28.75) {
+      footer {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
 
-</style>
+    </style>
 
   </head>  
   <body>
@@ -369,7 +373,7 @@ footer > p {
 
 
         <a href="https://codepen.io/hugh-burgess/full/MWeebWg" target="_blank" class="project project-title project-tile">
-          <img class="project-image" src="https://res.cloudinary.com/devpost/image/fetch/s--YFpiE0zr--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://user-images.githubusercontent.com/34116562/41829100-842a05a2-7856-11e8-971b-eaed8bcfa57c.png" alt="project">
+          <img class="project-image" src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" alt="project">
           <p class="project-title">
             <span class="code"><</span>
               Technical Documentation Page
