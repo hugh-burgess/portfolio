@@ -77,7 +77,7 @@ h2 {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 5em;
 }
 
 h2 {
@@ -102,6 +102,7 @@ img {
     filter: gray;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
+  height: 325px; width: 162.5px;
 }
 
 .nav {
@@ -202,7 +203,7 @@ img {
 
 .project {
   background: #303841;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.4);
   border-radius: 2px;
 }
 
@@ -358,7 +359,7 @@ footer > p {
         </a>
 
         <a href="https://codepen.io/hugh-burgess/full/vYKGzLX" target="_blank" class="project project-title project-tile">
-          <img class="project-image" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="project">
+          <img class="project-image" src="https://images.unsplash.com/photo-1558544956-15f3c317e06a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="project">
           <p class="project-title">
             <span class="code"><</span>
               Product Landing Page
@@ -392,7 +393,7 @@ footer > p {
         <a class="btn contact-details" href="https://twitter.com/hughburgess" id="profile-link" target="_blank">Twitter</a>
         <a href="mailto:hughburgessgermany@hotmail.com" class="btn contact-details">Mail Me</a>
         <a id="profile-link" href="https://github.com/hugh-burgess" target="_blank" class="btn contact-details">GitHub</a>
-        <a href="https://medium.com/@hughburgess" target="_blank" class="btn contact-details">Medium</a>
+        <a href="https://hughburgess.medium.com" target="_blank" class="btn contact-details">Medium</a>
         <a href="https://www.linkedin.com/in/hugh-burgess-1750b485/" target="_blank" class="btn contact-details">LinkedIn</a>      
       </div>
     </section>
