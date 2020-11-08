@@ -167,6 +167,14 @@ FCC test tracker
       color: #be3144;
     }
 
+    @media (max-width: 28.75em) {
+  .welcome-section {
+    font-size: 60%;
+    justify-content: center;
+    padding: 6rem 2rem;
+  }  
+}
+
     .projects-section {
       text-align: center;
       padding: 10rem 2rem;
