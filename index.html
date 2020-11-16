@@ -150,6 +150,7 @@
       font-weight: 200;
       font-style: italic;
       color: #be3144;
+      padding: 6rem;
     }
 
     @media (max-width: 28.75em) {
@@ -331,7 +332,11 @@
 
     <section id="welcome-section" class="welcome-section">
       <h1>Hugh Burgess - Portfolio</h1>
-      <p>Learning step-by-step to code.</p>
+      <p>Welcome to my Portfolio. An on-going process of learning to code, step-by-step.
+        <br><br>
+        I'm based in Hamburg, Germany, and have learn't both independantly and through FreeCodeCamp: how to create HTML, impliment CSS and modify code with Git on Terminal, and finally store and update remote repositories on GitHub.
+        <br><br>
+        Feel free to browse my projects and get in touch with me.</p>
     </section>
 
     <section id="projects" class="projects-section">
