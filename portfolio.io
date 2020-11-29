@@ -267,7 +267,7 @@
       text-align: center;
       }
     }
-
+			
     .contacts-section-header > p {
       font-style: italic;
       text-align: center;
@@ -336,7 +336,7 @@
         <br><br>
         I'm based in Hamburg, Germany, and have learn't both independantly and through FreeCodeCamp: how to create HTML, impliment CSS and modify code with Git on Terminal, and finally store and update remote repositories on GitHub.
         <br><br>
-        Feel free to browse my projects and get in touch with me.</p>
+        Feel free to browse my recent projects and get in touch with me.</p>
     </section>
 
     <section id="projects" class="projects-section">
